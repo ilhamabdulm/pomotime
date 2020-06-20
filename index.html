@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/index.css" />
+    <title>Pomodoro Timer!</title>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header>
+      <section>
+        <h1>PomoTime!</h1>
+      </section>
+      <nav class="normal-nav">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#app">App</a></li>
+        </ul>
+      </nav>
+
+      <a class="mobile-btn-nav" id="btn-mobile">
+        <img src="./assets/open-menu.svg" alt="menu" id="menu-icon" />
+      </a>
+
+      <nav class="mobile-nav">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#app">App</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- HOME -->
+    <main id="home">
+      <section>
+        <article>
+          <h1>Pomodoro Timer</h1>
+          <p>“What gets MEASURED, gets MANAGED” - Peter Drucker</p>
+        </article>
+        <a href="#app" class="btn primary">Try App</a>
+      </section>
+      <figure>
+        <img src="./assets/reminder_note.svg" alt="main" id="img-reminder" />
+      </figure>
+    </main>
+
+    <!-- ABOUT -->
+    <main id="about">
+      <section>
+        <article>
+          <div class="text">
+            <h2>Meet the Developer!</h2>
+            <span>Connect with me</span>
+          </div>
+          <div class="action-group">
+            <a href="https://twitter.com/ilhamabdulm_" target="_blank">TWITTER</a>
+            <a href="https://instagram.com/ilhamabdulm_" target="_blank">INSTAGRAM</a>
+            <a href="https://github.com/ilhamabdulm" target="_blank">GITHUB</a>
+          </div>
+        </article>
+        <aside>
+          <article>
+            <div class="profile">
+              <h3>Ilham A. Malik</h3>
+              <span>Front End Developer</span>
+            </div>
+            <p>Hello, my name is Ilham, I am a Junior Front End Developer</p>
+          </article>
+          <figure>
+            <img src="./assets/foto.jpg" alt="foto" />
+          </figure>
+        </aside>
+      </section>
+    </main>
+
+    <!-- APP -->
+    <main id="app">
+      <figure>
+        <img src="./assets/time.svg" alt="time" />
+      </figure>
+      <section>
+        <div class="main-content">
+          <h2>Pomodoro Clock</h2>
+          <div class="app-box">
+            <span id="timer">25:00</span>
+          </div>
+          <div class="action-button">
+            <a class="btn primary" id="btn-start">Start</a>
+            <a class="btn secondary" id="btn-pause">Pause</a>
+            <a class="btn danger" id="btn-stop">Stop</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+      <span>&copy Made with Love by Ilham A. Malik</span>
+    </footer>
+  </body>
+  <script src="./js/index.js"></script>
+</html>
